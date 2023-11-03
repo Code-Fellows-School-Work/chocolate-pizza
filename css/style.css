@@ -1,0 +1,37 @@
+* {
+  border: 2px solid;
+  color: black;
+}
+
+/* Define a flex container for the header */
+header {
+  display: flex; /* Set the display property to 'flex' */
+  align-items: center; /* Vertically align items to the center */
+  justify-content: space-between; /* Add space between items horizontally */
+  padding: 10px; /* Optional: Add padding to the header for spacing */
+}
+
+/* Style the navigation lists (ul elements) */
+nav ul {
+  list-style: none; /* Remove the default bullet points */
+  display: flex; /* Make the list items flex items */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style individual list items (li elements) */
+nav li {
+  margin-right: 10px; /* Optional: Add spacing between list items */
+}
+
+/* Style the title and description */
+.title {
+  font-size: 24px; /* Example font size */
+  margin-right: 10px; /* Optional: Add spacing between title and other elements */
+}
+
+strong {
+  font-style: italic; /* Example style for the description */
+}
+
+/* Additional styling for the logo or other elements can be added as needed */
