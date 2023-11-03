@@ -56,9 +56,14 @@ footer {
   padding: 10px 0; /* Add padding to the footer (optional) */
 }
 
+footer p {
+  color: gray;
+  font-size: 0.75em;
+}
+
 /* Style the small logo in the footer */
 footer img {
-  width: 100px; /* Adjust the width of the logo as needed */
+  width: 30px; /* Adjust the width of the logo as needed */
   height: auto; /* Maintain aspect ratio */
   margin: 10px 0; /* Add margin for spacing (optional) */
 }
